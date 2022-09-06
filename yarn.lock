@@ -1821,13 +1821,6 @@ antd-dayjs-webpack-plugin@^1.0.6:
   resolved "https://registry.npmmirror.com/antd-dayjs-webpack-plugin/-/antd-dayjs-webpack-plugin-1.0.6.tgz"
   integrity sha512-UlK3BfA0iE2c5+Zz/Bd2iPAkT6cICtrKG4/swSik5MZweBHtgmu1aUQCHvICdiv39EAShdZy/edfP6mlkS/xXg==
 
-antd-img-crop@^4.2.3:
-  version "4.2.3"
-  resolved "https://registry.npmmirror.com/antd-img-crop/-/antd-img-crop-4.2.3.tgz#9d1127415e1230fed27d691482363985f4eb188d"
-  integrity sha512-YZgsUdfHnkBCOQ1sLXTwfVRgBdMRM//joddFnSlWe/QU52m8PPbBxtgt0YdEf+UTPXOAx6RQJp1gUjAmMU2knA==
-  dependencies:
-    react-easy-crop "^4.1.5"
-
 antd@>=4.0, antd@^4.20.6, antd@^4.20.7:
   version "4.21.5"
   resolved "https://registry.npmmirror.com/antd/-/antd-4.21.5.tgz"
@@ -4119,7 +4112,7 @@ human-signals@^3.0.1:
 
 husky@^8.0.1:
   version "8.0.1"
-  resolved "https://registry.npmmirror.com/husky/-/husky-8.0.1.tgz"
+  resolved "https://registry.npmmirror.com/husky/-/husky-8.0.1.tgz#511cb3e57de3e3190514ae49ed50f6bc3f50b3e9"
   integrity sha512-xs7/chUH/CKdOCs7Zy0Aev9e/dKOMZf3K1Az1nar3tzlv0jfqnYtu235bstsWTmXOR0EfINrPa97yy4Lz6RiKw==
 
 icss-utils@^5.0.0, icss-utils@^5.1.0:
@@ -5284,11 +5277,6 @@ normalize-selector@^0.2.0:
   version "0.2.0"
   resolved "https://registry.npmmirror.com/normalize-selector/-/normalize-selector-0.2.0.tgz"
   integrity sha512-dxvWdI8gw6eAvk9BlPffgEoGfM7AdijoCwOEJge3e3ulT2XLgmU7KvvxprOaCu05Q1uGRHmOhHe1r6emZoKyFw==
-
-normalize-wheel@^1.0.1:
-  version "1.0.1"
-  resolved "https://registry.npmmirror.com/normalize-wheel/-/normalize-wheel-1.0.1.tgz#aec886affdb045070d856447df62ecf86146ec45"
-  integrity sha512-1OnlAPZ3zgrk8B91HyRj+eVv+kS5u+Z0SCsak6Xil/kmgEia50ga7zfkumayonZrImffAxPU/5WcyGhzetHNPA==
 
 npm-run-path@^2.0.0:
   version "2.0.2"
@@ -6492,14 +6480,6 @@ react-dom@18.1.0:
     loose-envify "^1.1.0"
     scheduler "^0.22.0"
 
-react-easy-crop@^4.1.5:
-  version "4.4.0"
-  resolved "https://registry.npmmirror.com/react-easy-crop/-/react-easy-crop-4.4.0.tgz#723832a07d6809ae45e974405c1258b57e79c565"
-  integrity sha512-fR1+rU9wSSloton0RwATI/CMVa04Ox0mufc+bgwA4LY8NAhNgGQdO/tZukrijYnaaFTF4AzcnBNKOIwJWTR3wg==
-  dependencies:
-    normalize-wheel "^1.0.1"
-    tslib "2.0.1"
-
 react-error-overlay@6.0.9:
   version "6.0.9"
   resolved "https://registry.npmmirror.com/react-error-overlay/-/react-error-overlay-6.0.9.tgz"
@@ -7604,11 +7584,6 @@ trim-newlines@^3.0.0:
   version "3.0.1"
   resolved "https://registry.npmmirror.com/trim-newlines/-/trim-newlines-3.0.1.tgz"
   integrity sha512-c1PTsA3tYrIsLGkJkzHF+w9F2EyxfXGo4UyJc4pFL++FMjnq0HJS69T3M7d//gKrFKwy429bouPescbjecU+Zw==
-
-tslib@2.0.1:
-  version "2.0.1"
-  resolved "https://registry.npmmirror.com/tslib/-/tslib-2.0.1.tgz#410eb0d113e5b6356490eec749603725b021b43e"
-  integrity sha512-SgIkNheinmEBgx1IUNirK0TUD4X9yjjBRTqqjggWCU3pUEqIk3/Uwl3yRixYKT6WjQuGiwDv4NomL3wqRCj+CQ==
 
 tslib@^1.10.0, tslib@^1.8.1:
   version "1.14.1"

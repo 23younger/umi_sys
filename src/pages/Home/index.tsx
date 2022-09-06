@@ -1,13 +1,15 @@
 import Guide from '@/components/Guide';
 import { trim } from '@/utils/format';
-import { Button } from 'antd';
 import { PageContainer } from '@ant-design/pro-components';
 import { useModel } from '@umijs/max';
+import { Button } from 'antd';
 import styles from './index.less';
 
 const HomePage: React.FC = () => {
   const { name, setName } = useModel('global');
-  const { initialState, loading, refresh} = useModel('@@initialState')
+  const { initialState, loading, refresh } = useModel('@@initialState');
+  console.log(initialState);
+
   return (
     <PageContainer ghost>
       <div className={styles.container}>

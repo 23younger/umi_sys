@@ -2,15 +2,15 @@
 
 // 全局初始化数据配置，用于 Layout 用户信息和权限初始化
 // 更多信息见文档：https://next.umijs.org/docs/api/runtime-config#getinitialstate
-import Footer from "./Footer";
-import { req } from "./services/request";
+// import Footer from "./Footer";
+import { req } from './services/request';
 export async function getInitialState(): Promise<any> {
-  console.log('初始化getInit')
-  return { 
+  console.log('初始化getInit');
+  return {
     name: '用户',
     time: '2020',
     menuList: ['home', 'access', 'table', 'usermanage'],
-    btnList: ['add', 'delete']
+    btnList: ['add', 'delete'],
   };
 }
 
@@ -35,12 +35,12 @@ export const layout = () => {
   };
 };
 
-export function onRouteChange(params:any) {
-  console.log('routeChange', params)
+export function onRouteChange(params: any) {
+  console.log('routeChange', params);
 }
 
-export function patchRoutes(params:any) {
+export function patchRoutes(params: any) {
   console.log('patchRoutes', params);
 }
 
-export const request = req
+export const request = req;
